@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-firstpage",
+  "version": "1.0.0",
+  "description": "Mi first webpage with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuigiDerson/First-Node-Website.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webpage",
+    "course"
+  ],
+  "author": "Luigi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuigiDerson/First-Node-Website/issues"
+  },
+  "homepage": "https://github.com/LuigiDerson/First-Node-Website#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
